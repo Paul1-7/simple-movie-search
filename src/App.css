@@ -1,0 +1,45 @@
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+.gap-2 {
+  gap: 1rem;
+}
+
+.movies {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie img {
+  border-radius: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 2rem;
+}
